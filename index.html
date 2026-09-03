@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help Ziad and His Family</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f4f6f8;margin:0;color:#20252b}
+.card{max-width:760px;margin:30px auto;background:white;border-radius:18px;padding:28px;box-shadow:0 6px 25px rgba(0,0,0,.08)}
+h1{margin-top:0;font-size:30px} h2{margin-top:28px}
+.wallet{background:#f1f3f5;padding:14px;border-radius:10px;word-break:break-all;font-family:monospace}
+button{background:#222;color:white;border:0;border-radius:9px;padding:12px 18px;font-size:16px;cursor:pointer}
+.qr{display:block;width:230px;max-width:70%;margin:18px auto}
+.note{background:#fff7df;border-left:4px solid #d6a400;padding:12px;border-radius:6px}
+.footer{color:#666;font-size:14px;margin-top:25px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Help Ziad and His Four Children Rebuild Their Lives</h1>
+<p><strong>My name is Ziad Hassan Radwan, an Arabic language teacher from Gaza.</strong></p>
+<p>Today, I am not writing as a teacher. I am writing as a father struggling to protect my children and give them a dignified life.</p>
+<p>The war destroyed our home (approximately $150,000) and our farm (approximately $120,000). I lost my savings while trying to survive.</p>
+<p>For months, my family and I have been living in a rented home, paying $700 every month just to have a roof over our heads. I continued working as a teacher, but 20% of my salary was cut. I am now struggling with debt and the high cost of food, water, electricity, transportation, rent and education.</p>
+<h2>My four children</h2>
+<ul>
+<li>My daughter is studying Dentistry, but her education is at risk.</li>
+<li>My son is studying Multimedia &amp; Web Development at university.</li>
+<li>My third son is in 11th grade.</li>
+<li>My youngest child is in 2nd grade.</li>
+</ul>
+<h2>🙏 How you can help</h2>
+<p>Even $5 or $10 can make a meaningful difference. If you cannot donate, please share this page.</p>
+<p><strong>USDT — TRC20 / TRON network</strong></p>
+<img class="qr" src="wallet_qr.png" alt="USDT TRC20 wallet QR code">
+<div class="wallet" id="wallet">TXf1hwCGcDf1PjPzMtdc1ySBoXQWPLQNq8</div>
+<p><button onclick="navigator.clipboard.writeText(document.getElementById('wallet').innerText).then(()=>alert('Wallet address copied.'))">Copy wallet address</button></p>
+<div class="note"><strong>Important:</strong> Send USDT using the TRC20/TRON network. Sending through another network may result in loss of funds.</div>
+<p class="footer">Thank you for reading and for helping my family continue with hope.</p>
+</div>
+</body>
+</html>
